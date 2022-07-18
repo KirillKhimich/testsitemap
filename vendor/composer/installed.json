@@ -1,0 +1,45 @@
+{
+    "packages": [
+        {
+            "name": "kirillkhimich/sitemap",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KirillKhimich/sitemap.git",
+                "reference": "3ea8a9fe73738b722b803a91cb61dca09e3a18e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KirillKhimich/sitemap/zipball/3ea8a9fe73738b722b803a91cb61dca09e3a18e8",
+                "reference": "3ea8a9fe73738b722b803a91cb61dca09e3a18e8",
+                "shasum": ""
+            },
+            "time": "2022-07-18T07:16:27+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Kirillkhimich\\Sitemap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Khimich"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/KirillKhimich/sitemap/issues",
+                "source": "https://github.com/KirillKhimich/sitemap/tree/master"
+            },
+            "install-path": "../kirillkhimich/sitemap"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
