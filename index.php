@@ -22,6 +22,10 @@ $array2 = [[
  *Некорректные типы:
     $sitemap ->CreateSiteMap($array,"jsonp"); - Ошибка записи файла:проверьте переданный параметр типа
     $sitemap ->CreateSiteMap($array,"XSL"); - Ошибка записи файла:проверьте переданный параметр типа
+*Дериктории:
+ $sitemap ->CreateSiteMap($array,"json"); - "Корневая папка/sitemaps"
+ $sitemap ->CreateSiteMap($array,"json","mydirectory"); - "Корневая папка/mydirectory"
+ $sitemap ->CreateSiteMap($array,"json","$array2"); - Ошибка записи файла:путь должен быть строкой
 */
 require_once __DIR__ . '/vendor/autoload.php';
 $sitemap = new \Kirillkhimich\Sitemap\CreateSiteMap();
@@ -63,5 +67,3 @@ $array = [[
     "changefreq" =>"weekly"
 ]];
 $sitemap ->CreateSiteMap($array,"json");
-$sitemap ->CreateSiteMap($array,"csv");
-$sitemap ->CreateSiteMap($array,"xml");

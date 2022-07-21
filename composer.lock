@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KirillKhimich/sitemap.git",
-                "reference": "3ea8a9fe73738b722b803a91cb61dca09e3a18e8"
+                "reference": "0486ffd605b7a57d8e48aa99bc6a7171cf25bd22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KirillKhimich/sitemap/zipball/3ea8a9fe73738b722b803a91cb61dca09e3a18e8",
-                "reference": "3ea8a9fe73738b722b803a91cb61dca09e3a18e8",
+                "url": "https://api.github.com/repos/KirillKhimich/sitemap/zipball/0486ffd605b7a57d8e48aa99bc6a7171cf25bd22",
+                "reference": "0486ffd605b7a57d8e48aa99bc6a7171cf25bd22",
                 "shasum": ""
             },
             "default-branch": true,
@@ -40,7 +40,7 @@
                 "issues": "https://github.com/KirillKhimich/sitemap/issues",
                 "source": "https://github.com/KirillKhimich/sitemap/tree/master"
             },
-            "time": "2022-07-18T07:16:27+00:00"
+            "time": "2022-07-21T08:29:05+00:00"
         }
     ],
     "packages-dev": [],

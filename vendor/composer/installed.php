@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'ca1a7788f37771d43f4e1b0dc00993bbe21daf87',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ca1a7788f37771d43f4e1b0dc00993bbe21daf87',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'kirillkhimich/sitemap' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '3ea8a9fe73738b722b803a91cb61dca09e3a18e8',
+            'reference' => '0486ffd605b7a57d8e48aa99bc6a7171cf25bd22',
             'type' => 'library',
             'install_path' => __DIR__ . '/../kirillkhimich/sitemap',
             'aliases' => array(
